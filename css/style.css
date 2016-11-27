@@ -1,0 +1,47 @@
+/* Стили для виджета сравнений из Wordpress */
+
+table.diff tbody tr td:nth-child(2) {
+    width: 4%
+}
+table.diff {
+    border-collapse: separate;
+    border-spacing: 2px;
+    table-layout: fixed;
+    width: 100%;
+    white-space: pre-wrap;
+}
+table.diff col.content {
+    width: auto;
+}
+table.diff col.ltype {
+    width: 30px;
+}
+table.diff tr {
+    background-color: transparent;
+}
+table.diff td, table.diff th {
+    font-family: Consolas, Monaco, monospace;
+    font-size: 14px;
+    line-height: 1.618;
+    padding: .5em;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+table.diff td h1, table.diff td h2, table.diff td h3, table.diff td h4, table.diff td h5, table.diff td h6 {
+    margin: 0;
+}
+table.diff .diff-addedline ins, table.diff .diff-deletedline del {
+    text-decoration: none;
+}
+table.diff .diff-deletedline {
+    background-color: #ffe9e9;
+}
+table.diff .diff-deletedline del {
+    background-color: #faa;
+}
+table.diff .diff-addedline {
+    background-color: #e9ffe9;
+}
+table.diff .diff-addedline ins {
+    background-color: #afa;
+}
