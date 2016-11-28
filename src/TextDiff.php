@@ -15,7 +15,7 @@ class TextDiff
 	 *
 	 * @param string $left_string  text
 	 * @param string $right_string text to compare
-	 * @param bool   $split_view   split into two columns
+	 * @param bool   $split_view   split into two columns (side by side comparison)
 	 *
 	 * @return string HTML table or empty string.
 	 */
