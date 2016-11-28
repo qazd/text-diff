@@ -42,5 +42,5 @@ If you won't use Composer - just require `src/TextDiff.php`
 Integrate `css/style.css` into your page to style the comparison table.
 
 #### More
-- [example #1](https://github.com/qazd/text-diff/blob/master/examples/example1.php)
-- [example #2](https://github.com/qazd/text-diff/blob/master/examples/example2.php)
+- [example #1](examples/example1.php)
+- [example #2](examples/example2.php)
