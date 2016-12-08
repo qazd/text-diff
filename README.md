@@ -8,7 +8,7 @@ TextDiff is a simple library for text differences visualization. Based on Wordpr
 Installation
 ------------
 
-- via Composer `composer require qazd/text-diff dev-master`
+- via Composer `composer require qazd/text-diff`
 - via Git `git clone https://github.com/qazd/text-diff.git`
 - or [download zip](https://github.com/qazd/text-diff/zipball/master)
 
